@@ -25,7 +25,8 @@ export default function Filtros ( {filtro, setFiltro} : Props) {
                     })
                     } 
                     key={opcao.id} 
-                    onClick={() => selecionarOpcao(opcao)}>{opcao.label}
+                    onClick={() => selecionarOpcao(opcao)}>
+                        {opcao.label}
                 </button>
             ))}
         </div>
