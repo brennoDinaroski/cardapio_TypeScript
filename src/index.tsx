@@ -12,3 +12,5 @@ root.render(
     <Cardapio/>
   </React.StrictMode>
 );
+
+// VIDEO 'POPULANDO CADA ITEM' ASSISTIR DO INICIO
