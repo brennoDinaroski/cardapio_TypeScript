@@ -1,5 +1,18 @@
 [
-    {
+  {
+    "title": "Strogonoff de carne",
+    "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+    "photo": "/assets/pratos/macarrao_mediterraneo.png",
+    "size": 400,
+    "serving": 2,
+    "price": 73.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Massas"
+    }
+  },  
+  {
       "title": "Macarrão mediterrâneo",
       "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
       "photo": "/assets/pratos/macarrao_mediterraneo.png",
@@ -23,7 +36,7 @@
       "category": {
         "id": 1,
         "label": "Massas"
-      }
+      }      
     },
     {
       "title": "Macarrão com chilli",
