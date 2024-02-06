@@ -4,12 +4,14 @@ import opcoes from './opcoes.json'
 import classNames from 'classnames'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 
-interface Props {
+export type OpcoesOrdenador = '' | 'porcao' | 'qtd_pessoas' | 'preco'
+
+interface IOrdenador {
     ordenador: string,
-    setOrdenador: React.Dispatch<React.SetStateAction<string>>
+    setOrdenador: React.Dispatch<React.SetStateAction<string>>    
 }
 
-export default function Ordenador({ordenador, setOrdenador}: Props) {
+export default function Ordenador({ordenador, setOrdenador}: IOrdenador) {
     const [aberto, setAberto] = useState(false)
     const nomeOrdenador = ordenador && opcoes.find(opcao => opcao.value === ordenador)?.nome
     return (
