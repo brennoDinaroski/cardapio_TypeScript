@@ -14,4 +14,4 @@ root.render(
   </React.StrictMode>
 );
 
-// AULA 05 'Criando o início' Assistir do Zero
+// AULA 02.02 'Pratos recomendados' Revisar e continuar
