@@ -13,4 +13,4 @@ root.render(
   </React.StrictMode>
 );
 
-// AULA 02.02 'Pratos recomendados' Revisar e continuar
+// AULA 03.04 'Trocando a Tag A' assistir do inicio
