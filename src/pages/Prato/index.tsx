@@ -8,7 +8,7 @@ export default function Prato() {
   const { prato } = state as {prato: typeof cardapio[0]} ;
   return(
     <>
-      <button className={styles.Voltar}>
+      <button className={styles.voltar}>
         {'< Voltar'}
       </button>
       <section className={styles.container}>
