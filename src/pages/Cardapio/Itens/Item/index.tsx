@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Prato } from 'types/Prato';
 
 export default function Item(props : Prato) {
-  const {id, title, description, category, size, serving, price, photo} = props;
+  const {id, title, description, photo} = props;
   const navigate = useNavigate();
   return (
     <div className={styles.item} onClick={() => navigate(`/prato/${id}`)  }>
