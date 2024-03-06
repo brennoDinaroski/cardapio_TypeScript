@@ -18,6 +18,12 @@ export default function Prato() {
       <Route path='*' element={<PaginaPadrao />}>
         <Route index element={
           <>
+            <button className={styles.voltar} onClick={() => navigate('/')}>
+              {'< Início'}
+            </button>
+            <button className={styles.voltar}  onClick={() => navigate('/cardapio')}>
+              {'< Cardápio'}
+            </button>
             <button className={styles.voltar} onClick={() => navigate(-1)}>
               {'< Voltar'}
             </button>

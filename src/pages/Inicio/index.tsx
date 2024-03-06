@@ -4,6 +4,7 @@ import stylesTema from 'styles/Tema.module.scss';
 import nossaCasa from 'assets/nossa_casa.png';
 import { useNavigate } from 'react-router-dom';
 import { Prato } from 'types/Prato';
+import PratosRecomendados from 'components/PratosRecomendados';
 
 export default function Inicio() {
   let pratosRecomendados = [...cardapio];
@@ -34,6 +35,9 @@ export default function Inicio() {
             </button>
           </div>
         ))}
+      </div>
+      <div>
+        <PratosRecomendados />
       </div>
       <h3 className={stylesTema.titulo}>Nossa casa</h3>
       <div className={styles.nossaCasa}>
